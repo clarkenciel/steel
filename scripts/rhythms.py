@@ -110,7 +110,7 @@ snippet_size = schemetools.Scheme(
             'paper-alist'))
 
 if __name__ == '__main__':
-    cell   = [1,0,0]
+    cell   = [1,0,0,0]
 
     print("Permuting cell: {}".format(cell))
     cells  = gen_permutations(3, cell)
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     print("Creating Staves")
     staves = [Staff(c) for c in notes]
     for st in staves:
-        time_sig = indicatortools.TimeSignature((3,4))
+        time_sig = indicatortools.TimeSignature((4,4))
         clef     = Clef('percussion')
         attach(time_sig, st)
         attach(clef, st)
@@ -142,7 +142,7 @@ if __name__ == '__main__':
     lyf.items.append(book)
     setup_paper(lyf)
 
-    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1,3)
+    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1,4)
     with open(fp, "w") as f:
         f.write(format(lyf))
 

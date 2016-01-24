@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="score.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,19 +24,30 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1035.2527"
-     inkscape:cy="1091.4286"
+     inkscape:zoom="0.044194174"
+     inkscape:cx="2385.4044"
+     inkscape:cy="-905.62631"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
      width="11.69in"
-     inkscape:window-width="958"
+     inkscape:window-width="1246"
      inkscape:window-height="1028"
-     inkscape:window-x="960"
+     inkscape:window-x="672"
      inkscape:window-y="25"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="1050.1055,2056.1133"
+       id="guide3004" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-17.148437,1116"
+       id="guide3006" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>

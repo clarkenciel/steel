@@ -1,4 +1,5 @@
 import random as r
+import argparse as ap
 from abjad import *
 from abjad import lilypondfiletools as lyft
 from pprint import pprint as pp
@@ -82,8 +83,9 @@ def setup_paper(lyf):
 
 
 def set_paper(size):
-    return schemetools.Scheme("(set-paper-size \"{}\")".format(size),
-            force_quotes=True)
+    return schemetools.Scheme(
+            "set-paper-size",
+            schemetools.Scheme(size, force_quotes=True))
 
 
 note_map = {
@@ -95,13 +97,19 @@ note_map = {
 
 
 snippet_size = schemetools.Scheme(
-    "(set! paper-alist (cons '(\"snippet\" . (cons (* 75 mm) (* 50 mm))) paper-alist)))",
-    force_quotes=True)
-
+    'set!',
+    'paper-alist',
+    schemetools.Scheme('cons',
+        schemetools.Scheme(
+            schemetools.Scheme("snippet", force_quotes=True), 
+            ".", 
+            schemetools.Scheme('cons',
+                schemetools.Scheme('*', 50, 'mm'),
+                schemetools.Scheme('*', 30, 'mm')),
+            quoting="'"),
+            'paper-alist'))
 
 if __name__ == '__main__':
-    # print(format(snippet_size))
-    # print(format(set_paper("snippet")))
     cell   = [1,0,0]
 
     print("Permuting cell: {}".format(cell))
@@ -134,7 +142,8 @@ if __name__ == '__main__':
     lyf.items.append(book)
     setup_paper(lyf)
 
-    print("done!")
-    show(lyf)
+    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1,3)
+    with open(fp, "w") as f:
+        f.write(format(lyf))
 
-
+    print(u"done! file lives in: {}".format(fp))

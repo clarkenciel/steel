@@ -1,4 +1,4 @@
-% 2016-01-24 11:35
+% 2016-01-29 14:25
 
 \version "2.18.2"
 \language "english"
@@ -41,7 +41,7 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
+            r4
             r4
             r4
             r4
@@ -54,10 +54,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
             r4
             f4
+            r4
+            r4
         }
     }
     \bookpart {
@@ -67,10 +67,23 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
+            f4
             f4
+            r4
+        }
+    }
+    \bookpart {
+        \new Staff \with {
+            \override StaffSymbol #'line-count = #3
+            \override StaffSymbol #'line-positions = #'(-4 0 4)
+        } {
+            \clef "percussion"
+            \time 4/4
             r4
+            c'4
             r4
-            f4
+            r4
         }
     }
     \bookpart {
@@ -80,10 +93,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            f4
             r4
+            c'4
             r4
+            f4
         }
     }
     \bookpart {
@@ -93,8 +106,21 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
+            c'4
             r4
+            f4
+        }
+    }
+    \bookpart {
+        \new Staff \with {
+            \override StaffSymbol #'line-count = #3
+            \override StaffSymbol #'line-positions = #'(-4 0 4)
+        } {
+            \clef "percussion"
+            \time 4/4
             f4
+            c'4
             r4
             r4
         }
@@ -106,9 +132,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
+            f4
             c'4
-            r4
+            f4
             r4
         }
     }
@@ -147,7 +173,7 @@
             \time 4/4
             r4
             g'4
-            r4
+            c'4
             r4
         }
     }
@@ -160,8 +186,8 @@
             \time 4/4
             r4
             g'4
+            g'4
             r4
-            f4
         }
     }
     \bookpart {
@@ -173,7 +199,7 @@
             \time 4/4
             r4
             g'4
-            f4
+            g'4
             f4
         }
     }
@@ -184,9 +210,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            r4
             g'4
-            f4
+            c'4
             f4
         }
     }
@@ -197,10 +223,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            g'4
-            f4
             r4
+            g'4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -212,8 +238,8 @@
             \time 4/4
             f4
             g'4
-            r4
-            f4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -225,8 +251,8 @@
             \time 4/4
             f4
             g'4
+            g'4
             c'4
-            f4
         }
     }
     \bookpart {
@@ -237,8 +263,8 @@
             \clef "percussion"
             \time 4/4
             f4
-            g'4
             c'4
+            g'4
             c'4
         }
     }
@@ -249,9 +275,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
+            f4
+            f4
             g'4
-            c'4
             c'4
         }
     }
@@ -262,8 +288,8 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
             f4
-            g'4
             g'4
             c'4
         }
@@ -275,8 +301,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
+            f4
             g'4
             c'4
         }
@@ -288,8 +314,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
+            f4
             g'4
             g'4
         }
@@ -301,10 +327,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            c'4
+            f4
+            f4
             g'4
-            c'4
+            g'4
         }
     }
     \bookpart {
@@ -314,10 +340,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
             f4
-            g'4
             c'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -327,10 +353,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
+            f4
             r4
             g'4
-            c'4
+            g'4
         }
     }
     \bookpart {
@@ -340,10 +366,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
             c'4
-            c'4
+            r4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -353,10 +379,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            g'4
             r4
-            c'4
-            c'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -366,10 +392,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
-            c'4
-            c'4
+            g'4
+            f4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -380,9 +406,9 @@
             \clef "percussion"
             \time 4/4
             g'4
-            r4
-            c'4
             c'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -392,10 +418,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
-            c'4
-            f4
+            g'4
+            g'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -405,10 +431,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            f4
+            g'4
+            g'4
             c'4
-            f4
+            g'4
         }
     }
     \bookpart {
@@ -418,10 +444,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            c'4
             g'4
-            f4
             c'4
-            f4
+            g'4
         }
     }
     \bookpart {
@@ -432,9 +458,9 @@
             \clef "percussion"
             \time 4/4
             g'4
-            f4
+            g'4
             c'4
-            r4
+            c'4
         }
     }
     \bookpart {
@@ -445,9 +471,9 @@
             \clef "percussion"
             \time 4/4
             g'4
-            r4
+            g'4
+            g'4
             c'4
-            r4
         }
     }
     \bookpart {
@@ -457,10 +483,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            c'4
             g'4
-            r4
             c'4
-            f4
+            c'4
         }
     }
     \bookpart {
@@ -470,10 +496,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            c'4
             g'4
-            r4
             f4
-            f4
+            c'4
         }
     }
     \bookpart {
@@ -483,10 +509,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
             g'4
-            r4
-            r4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -496,10 +522,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             f4
-            r4
+            g'4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -509,10 +535,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             f4
-            r4
+            g'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -522,10 +548,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
-            r4
+            g'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -538,7 +564,7 @@
             c'4
             c'4
             r4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -548,10 +574,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
+            f4
             c'4
             r4
-            f4
+            g'4
         }
     }
     \bookpart {
@@ -561,10 +587,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            g'4
             r4
+            g'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -574,10 +600,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
             g'4
+            f4
             g'4
-            r4
-            r4
         }
     }
     \bookpart {
@@ -587,10 +613,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            f4
             r4
+            g'4
             r4
+            c'4
         }
     }
     \bookpart {
@@ -600,10 +626,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            r4
             r4
+            c'4
             r4
+            c'4
         }
     }
     \bookpart {
@@ -613,10 +639,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             r4
+            c'4
             f4
-            r4
+            c'4
         }
     }
     \bookpart {
@@ -626,10 +652,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             r4
             f4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -639,9 +665,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             r4
             f4
+            c'4
             c'4
         }
     }
@@ -652,10 +678,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
             r4
             c'4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -665,10 +691,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            r4
             r4
             c'4
+            c'4
+            f4
         }
     }
     \bookpart {
@@ -678,10 +704,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            r4
             r4
+            c'4
             g'4
+            f4
         }
     }
     \bookpart {
@@ -691,10 +717,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
+            f4
             g'4
             f4
-            r4
-            c'4
         }
     }
     \bookpart {
@@ -704,10 +730,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
+            f4
             g'4
-            c'4
             r4
-            c'4
         }
     }
     \bookpart {
@@ -717,10 +743,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
             f4
-            c'4
+            f4
+            g'4
+            r4
         }
     }
     \bookpart {
@@ -730,9 +756,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
             f4
+            f4
+            g'4
             f4
         }
     }
@@ -743,9 +769,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
+            f4
             c'4
+            g'4
             f4
         }
     }
@@ -756,10 +782,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             c'4
-            r4
+            g'4
+            f4
         }
     }
     \bookpart {
@@ -769,10 +795,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             f4
-            r4
+            g'4
+            f4
         }
     }
     \bookpart {
@@ -783,7 +809,7 @@
             \clef "percussion"
             \time 4/4
             c'4
-            c'4
+            f4
             c'4
             f4
         }
@@ -795,10 +821,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            g'4
             c'4
             f4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -808,10 +834,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            c'4
             f4
-            g'4
             c'4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -821,10 +847,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             g'4
+            f4
             c'4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -834,10 +860,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
-            c'4
+            f4
             r4
+            f4
+            r4
         }
     }
     \bookpart {
@@ -847,9 +873,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
+            f4
             f4
+            f4
             r4
         }
     }
@@ -861,9 +887,9 @@
             \clef "percussion"
             \time 4/4
             f4
-            r4
             f4
-            r4
+            f4
+            f4
         }
     }
     \bookpart {
@@ -875,8 +901,8 @@
             \time 4/4
             f4
             f4
+            c'4
             f4
-            r4
         }
     }
     \bookpart {
@@ -888,7 +914,7 @@
             \time 4/4
             f4
             f4
-            f4
+            g'4
             f4
         }
     }
@@ -899,9 +925,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             f4
-            f4
+            r4
+            g'4
             f4
         }
     }
@@ -912,10 +938,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
             f4
-            f4
+            r4
+            g'4
+            r4
         }
     }
     \bookpart {
@@ -925,10 +951,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            g'4
             f4
             f4
+            g'4
+            r4
         }
     }
     \bookpart {
@@ -939,9 +965,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            g'4
             f4
-            c'4
+            g'4
+            r4
         }
     }
     \bookpart {
@@ -952,9 +978,9 @@
             \clef "percussion"
             \time 4/4
             c'4
+            f4
             g'4
-            c'4
-            c'4
+            f4
         }
     }
     \bookpart {
@@ -964,10 +990,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
             c'4
+            f4
             c'4
+            f4
         }
     }
     \bookpart {
@@ -977,10 +1003,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
             c'4
-            g'4
-            g'4
             c'4
+            f4
         }
     }
     \bookpart {
@@ -991,21 +1017,8 @@
             \clef "percussion"
             \time 4/4
             f4
-            g'4
-            g'4
             c'4
-        }
-    }
-    \bookpart {
-        \new Staff \with {
-            \override StaffSymbol #'line-count = #3
-            \override StaffSymbol #'line-positions = #'(-4 0 4)
-        } {
-            \clef "percussion"
-            \time 4/4
             f4
-            g'4
-            g'4
             f4
         }
     }
@@ -1017,9 +1030,9 @@
             \clef "percussion"
             \time 4/4
             f4
-            g'4
-            g'4
-            r4
+            c'4
+            f4
+            c'4
         }
     }
     \bookpart {
@@ -1030,9 +1043,9 @@
             \clef "percussion"
             \time 4/4
             f4
-            g'4
             c'4
-            r4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -1042,10 +1055,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
+            f4
             c'4
-            g'4
             c'4
-            r4
         }
     }
     \bookpart {
@@ -1055,10 +1068,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
+            f4
             c'4
             g'4
-            c'4
-            f4
         }
     }
     \bookpart {
@@ -1068,10 +1081,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
-            c'4
             f4
+            f4
+            f4
+            g'4
         }
     }
     \bookpart {
@@ -1081,10 +1094,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
             c'4
-            g'4
             f4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -1094,10 +1107,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
             f4
+            c'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -1107,10 +1120,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
-            c'4
+            f4
+            g'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -1122,8 +1135,8 @@
             \time 4/4
             f4
             g'4
+            r4
             c'4
-            f4
         }
     }
     \bookpart {
@@ -1133,10 +1146,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            g'4
-            g'4
             f4
+            c'4
+            r4
+            c'4
         }
     }
     \bookpart {
@@ -1146,10 +1159,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
+            c'4
+            c'4
+            r4
             g'4
-            f4
         }
     }
     \bookpart {
@@ -1159,10 +1172,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
+            c'4
             c'4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -1172,10 +1185,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
-            f4
+            c'4
+            c'4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -1185,9 +1198,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
-            f4
+            c'4
+            c'4
+            r4
             c'4
         }
     }
@@ -1198,9 +1211,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
+            c'4
             f4
+            r4
             g'4
         }
     }
@@ -1211,9 +1224,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             f4
+            r4
             c'4
         }
     }
@@ -1224,7 +1237,7 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
+            c'4
             f4
             f4
             c'4
@@ -1237,10 +1250,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            f4
             c'4
-            c'4
+            f4
+            f4
+            g'4
         }
     }
     \bookpart {
@@ -1251,9 +1264,9 @@
             \clef "percussion"
             \time 4/4
             g'4
+            f4
             f4
             g'4
-            c'4
         }
     }
     \bookpart {
@@ -1264,9 +1277,9 @@
             \clef "percussion"
             \time 4/4
             g'4
+            f4
             c'4
             g'4
-            c'4
         }
     }
     \bookpart {
@@ -1279,7 +1292,7 @@
             g'4
             c'4
             c'4
-            c'4
+            g'4
         }
     }
     \bookpart {
@@ -1290,9 +1303,9 @@
             \clef "percussion"
             \time 4/4
             g'4
-            f4
             c'4
-            f4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1302,10 +1315,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            f4
-            f4
-            c'4
+            g'4
+            g'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1315,9 +1328,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
-            f4
+            g'4
+            g'4
+            g'4
             c'4
         }
     }
@@ -1329,9 +1342,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            r4
-            f4
-            f4
+            g'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1342,9 +1355,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            r4
-            f4
-            r4
+            c'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1354,10 +1367,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            r4
+            c'4
             f4
-            r4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1368,9 +1381,9 @@
             \clef "percussion"
             \time 4/4
             f4
-            r4
             f4
-            f4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1380,10 +1393,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             f4
-            r4
             f4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -1395,8 +1408,8 @@
             \time 4/4
             f4
             r4
-            r4
-            f4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -1406,10 +1419,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            f4
             r4
             r4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -1419,10 +1432,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            f4
             r4
             r4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -1432,10 +1445,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            c'4
             r4
             r4
+            c'4
+            g'4
         }
     }
     \bookpart {
@@ -1445,10 +1458,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            c'4
             r4
             f4
+            c'4
+            g'4
         }
     }
     \bookpart {
@@ -1458,10 +1471,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
-            f4
+            g'4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -1471,10 +1484,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            f4
-            r4
+            c'4
+            g'4
             r4
+            g'4
         }
     }
     \bookpart {
@@ -1484,10 +1497,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            f4
+            c'4
+            g'4
             r4
-            f4
+            c'4
         }
     }
     \bookpart {
@@ -1497,10 +1510,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
-            r4
+            c'4
+            g'4
             r4
+            f4
         }
     }
     \bookpart {
@@ -1510,8 +1523,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
+            g'4
+            g'4
             r4
             f4
         }
@@ -1523,10 +1536,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            c'4
+            g'4
             f4
-            r4
-            r4
-            r4
+            f4
         }
     }
     \bookpart {
@@ -1537,9 +1550,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            r4
-            r4
-            r4
+            g'4
+            c'4
+            f4
         }
     }
     \bookpart {
@@ -1550,8 +1563,8 @@
             \clef "percussion"
             \time 4/4
             c'4
-            r4
-            r4
+            g'4
+            g'4
             f4
         }
     }
@@ -1562,10 +1575,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
-            f4
-            f4
+            c'4
+            g'4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -1575,10 +1588,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
-            f4
-            r4
+            c'4
+            g'4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -1588,10 +1601,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            r4
+            g'4
             c'4
-            r4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -1601,10 +1614,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            f4
-            f4
-            r4
+            g'4
+            c'4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -1614,10 +1627,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            c'4
+            c'4
+            c'4
             g'4
-            r4
-            f4
         }
     }
     \bookpart {
@@ -1627,10 +1640,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
             c'4
             g'4
-            r4
-            f4
+            g'4
         }
     }
     \bookpart {
@@ -1640,10 +1653,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
-            r4
             f4
+            r4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -1653,9 +1666,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             r4
+            g'4
             f4
         }
     }
@@ -1666,23 +1679,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             r4
-            r4
-        }
-    }
-    \bookpart {
-        \new Staff \with {
-            \override StaffSymbol #'line-count = #3
-            \override StaffSymbol #'line-positions = #'(-4 0 4)
-        } {
-            \clef "percussion"
-            \time 4/4
             g'4
-            g'4
-            r4
-            r4
+            c'4
         }
     }
     \bookpart {
@@ -1692,9 +1692,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             r4
-            c'4
+            r4
+            f4
             r4
         }
     }
@@ -1705,10 +1705,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             r4
-            f4
+            r4
             r4
+            r4
         }
     }
     \bookpart {
@@ -1718,7 +1718,7 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
+            f4
             r4
             f4
             r4
@@ -1731,9 +1731,9 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
             r4
             r4
-            c'4
             r4
         }
     }
@@ -1746,8 +1746,8 @@
             \time 4/4
             f4
             f4
-            c'4
             r4
+            r4
         }
     }
     \bookpart {
@@ -1757,10 +1757,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             r4
-            c'4
             f4
+            r4
+            r4
         }
     }
     \bookpart {
@@ -1770,10 +1770,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             r4
-            f4
-            f4
+            c'4
+            r4
+            r4
         }
     }
     \bookpart {
@@ -1783,10 +1783,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             r4
-            f4
-            f4
+            g'4
+            r4
+            r4
         }
     }
     \bookpart {
@@ -1796,10 +1796,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
             g'4
             r4
             f4
-            f4
         }
     }
     \bookpart {
@@ -1809,10 +1809,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            r4
             g'4
-            f4
-            f4
             f4
+            r4
         }
     }
     \bookpart {
@@ -1822,10 +1822,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             f4
+            c'4
             r4
-            f4
+            r4
         }
     }
     \bookpart {
@@ -1835,7 +1835,7 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
+            f4
             c'4
             r4
             f4
@@ -1848,9 +1848,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
+            f4
             f4
+            r4
             f4
         }
     }
@@ -1861,10 +1861,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             f4
             r4
+            f4
         }
     }
     \bookpart {
@@ -1874,10 +1874,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             c'4
             r4
             r4
+            f4
         }
     }
     \bookpart {
@@ -1887,10 +1887,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             c'4
             r4
-            r4
+            f4
+            f4
         }
     }
     \bookpart {
@@ -1901,9 +1901,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            g'4
             r4
-            r4
+            c'4
+            f4
         }
     }
     \bookpart {
@@ -1913,10 +1913,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             f4
-            f4
             r4
+            c'4
+            f4
         }
     }
     \bookpart {
@@ -1926,9 +1926,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            f4
             c'4
+            r4
+            f4
             r4
         }
     }
@@ -1939,10 +1939,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            g'4
+            r4
             c'4
             f4
-            c'4
-            r4
         }
     }
     \bookpart {
@@ -1952,10 +1952,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
-            c'4
+            g'4
             r4
+            g'4
+            f4
         }
     }
     \bookpart {
@@ -1965,9 +1965,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             c'4
-            c'4
+            r4
+            g'4
             f4
         }
     }
@@ -1978,9 +1978,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            c'4
             f4
+            r4
+            g'4
             f4
         }
     }
@@ -1991,10 +1991,10 @@
         } {
             \clef "percussion"
             \time 4/4
+            f4
+            r4
             c'4
             c'4
-            r4
-            f4
         }
     }
     \bookpart {
@@ -2004,10 +2004,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
+            r4
+            r4
             c'4
             f4
-            c'4
         }
     }
     \bookpart {
@@ -2017,10 +2017,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
             r4
-            c'4
+            r4
+            f4
+            f4
         }
     }
     \bookpart {
@@ -2030,10 +2030,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            f4
+            r4
             r4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -2043,10 +2043,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
-            r4
+            f4
             r4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -2057,9 +2057,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            r4
             r4
-            r4
+            f4
+            c'4
         }
     }
     \bookpart {
@@ -2071,8 +2071,8 @@
             \time 4/4
             c'4
             f4
-            r4
-            r4
+            f4
+            c'4
         }
     }
     \bookpart {
@@ -2084,8 +2084,8 @@
             \time 4/4
             g'4
             f4
-            r4
-            r4
+            f4
+            c'4
         }
     }
     \bookpart {
@@ -2095,10 +2095,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
+            g'4
             f4
             f4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -2108,10 +2108,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             c'4
             f4
-            r4
+            f4
+            g'4
         }
     }
     \bookpart {
@@ -2121,10 +2121,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             f4
             f4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -2134,10 +2134,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
-            c'4
             f4
+            f4
+            c'4
+            g'4
         }
     }
     \bookpart {
@@ -2147,8 +2147,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            c'4
+            f4
+            f4
             c'4
             c'4
         }
@@ -2160,10 +2160,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
+            f4
+            f4
+            f4
             c'4
-            r4
-            g'4
         }
     }
     \bookpart {
@@ -2173,9 +2173,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            f4
             r4
+            f4
+            c'4
             g'4
         }
     }
@@ -2186,10 +2186,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            f4
             r4
-            c'4
+            f4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -2199,10 +2199,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
             r4
-            r4
-            r4
+            c'4
+            g'4
+            g'4
         }
     }
     \bookpart {
@@ -2212,10 +2212,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            r4
-            f4
             r4
+            c'4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -2225,10 +2225,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            c'4
             r4
-            f4
-            r4
+            g'4
+            g'4
+            c'4
         }
     }
     \bookpart {
@@ -2238,10 +2238,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            g'4
-            r4
             r4
+            g'4
+            c'4
+            c'4
         }
     }
     \bookpart {
@@ -2251,10 +2251,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            c'4
-            r4
             r4
+            g'4
+            c'4
+            f4
         }
     }
     \bookpart {
@@ -2264,9 +2264,9 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            r4
+            g'4
             c'4
-            f4
             r4
         }
     }
@@ -2277,10 +2277,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
+            f4
+            g'4
             c'4
             f4
-            r4
         }
     }
     \bookpart {
@@ -2290,10 +2290,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            c'4
-            r4
             r4
+            g'4
+            f4
+            f4
         }
     }
     \bookpart {
@@ -2303,10 +2303,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
-            f4
             r4
+            g'4
             r4
+            c'4
         }
     }
     \bookpart {
@@ -2316,10 +2316,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
             f4
+            g'4
             r4
-            f4
+            c'4
         }
     }
     \bookpart {
@@ -2329,8 +2329,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             f4
+            g'4
             r4
             f4
         }
@@ -2342,8 +2342,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             f4
+            g'4
             r4
             r4
         }
@@ -2355,10 +2355,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
-            f4
-            f4
             r4
+            g'4
+            f4
+            c'4
         }
     }
     \bookpart {
@@ -2369,9 +2369,9 @@
             \clef "percussion"
             \time 4/4
             r4
+            g'4
             f4
-            c'4
-            r4
+            g'4
         }
     }
     \bookpart {
@@ -2381,10 +2381,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            r4
             f4
+            g'4
             f4
-            r4
+            c'4
         }
     }
     \bookpart {
@@ -2395,9 +2395,9 @@
             \clef "percussion"
             \time 4/4
             f4
-            c'4
-            r4
+            g'4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -2407,10 +2407,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            c'4
             g'4
-            r4
             f4
+            g'4
         }
     }
     \bookpart {
@@ -2420,10 +2420,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
-            f4
-            f4
+            g'4
+            r4
+            g'4
         }
     }
     \bookpart {
@@ -2433,10 +2433,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
+            g'4
             c'4
-            f4
+            g'4
         }
     }
     \bookpart {
@@ -2446,8 +2446,8 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
             c'4
+            g'4
             c'4
             c'4
         }
@@ -2459,7 +2459,7 @@
         } {
             \clef "percussion"
             \time 4/4
-            f4
+            c'4
             g'4
             c'4
             f4
@@ -2474,8 +2474,8 @@
             \time 4/4
             c'4
             g'4
-            c'4
             f4
+            f4
         }
     }
     \bookpart {
@@ -2486,9 +2486,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            g'4
             g'4
             f4
+            c'4
         }
     }
     \bookpart {
@@ -2499,9 +2499,9 @@
             \clef "percussion"
             \time 4/4
             c'4
-            g'4
-            g'4
             c'4
+            f4
+            g'4
         }
     }
     \bookpart {
@@ -2511,10 +2511,10 @@
         } {
             \clef "percussion"
             \time 4/4
-            g'4
-            g'4
+            c'4
+            c'4
+            r4
             g'4
-            f4
         }
     }
 }

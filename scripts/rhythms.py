@@ -110,28 +110,28 @@ snippet_size = schemetools.Scheme(
             'paper-alist'))
 
 if __name__ == '__main__':
-    cell   = [1,0,0,0]
+    cell = [1, 0, 0, 0]
 
     print("Permuting cell: {}".format(cell))
-    cells  = gen_permutations(3, cell)
-    perm   = [gen_permutations(64, c) for c in cells]
+    cells = gen_permutations(3, cell)
+    perm = [gen_permutations(64, c) for c in cells]
 
     print("Converting to Abjad")
-    notes  = [[note_map[x](4) for x in c] for p in perm for c in p]
+    notes = [[note_map[x](4) for x in c] for p in perm for c in p]
 
     print("Creating Staves")
     staves = [Staff(c) for c in notes]
     for st in staves:
-        time_sig = indicatortools.TimeSignature((4,4))
-        clef     = Clef('percussion')
+        time_sig = indicatortools.TimeSignature((4, 4))
+        clef = Clef('percussion')
         attach(time_sig, st)
         attach(clef, st)
         make_three_line(st)
 
     print("Building Book Parts")
-    bps    = [wrap_in_book_part(s) for s in staves]
-    book   = make_book()
-    lyf    = lyft.make_basic_lilypond_file()
+    bps = [wrap_in_book_part(s) for s in staves]
+    book = make_book()
+    lyf = lyft.make_basic_lilypond_file()
 
     print("Attaching Book Parts")
     for bp in bps:
@@ -142,7 +142,7 @@ if __name__ == '__main__':
     lyf.items.append(book)
     setup_paper(lyf)
 
-    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1,4)
+    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1, 4)
     with open(fp, "w") as f:
         f.write(format(lyf))
 

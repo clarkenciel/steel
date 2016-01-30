@@ -1,8 +1,6 @@
 import random as r
-import argparse as ap
 from abjad import *
 from abjad import lilypondfiletools as lyft
-from pprint import pprint as pp
 
 
 def mutate(x):
@@ -15,7 +13,7 @@ def mutate(x):
 
 
 def permute(cell):
-    i = r.randrange(0,cell.__len__())
+    i = r.randrange(0, cell.__len__())
     return cell[0:i] + [mutate(cell[i])] + cell[i+1:]
 
 
@@ -56,7 +54,7 @@ def show_note_stem(show, note):
 
 def show_note(show, note):
     for f in [show_note_head, show_note_stem]:
-        f(show, note) 
+        f(show, note)
 
 
 # books and book parts
@@ -70,15 +68,15 @@ def wrap_in_book_part(staff):
     return out
 
 
-def setup_paper(lyf):
-    lyf.items.insert(0,snippet_size)
+def setup_paper(lyf, w, h):
+    lyf.items.insert(0, snippet_size(w, h))
     lyf.paper_block.items.insert(0, set_paper("snippet"))
-    lyf.paper_block.indent            = 0
-    lyf.paper_block.tagline           = False
-    lyf.paper_block.ragged_right      = False
-    lyf.paper_block.top_margin        = 5
-    lyf.paper_block.right_margin      = 5
-    lyf.paper_block.left_margin       = 5
+    lyf.paper_block.indent = 0
+    lyf.paper_block.tagline = False
+    lyf.paper_block.ragged_right = False
+    lyf.paper_block.top_margin = 5
+    lyf.paper_block.right_margin = 5
+    lyf.paper_block.left_margin = 5
     lyf.paper_block.print_page_number = False
 
 
@@ -96,25 +94,22 @@ note_map = {
         }
 
 
-snippet_size = schemetools.Scheme(
-    'set!',
-    'paper-alist',
-    schemetools.Scheme('cons',
-        schemetools.Scheme(
-            schemetools.Scheme("snippet", force_quotes=True), 
-            ".", 
-            schemetools.Scheme('cons',
-                schemetools.Scheme('*', 50, 'mm'),
-                schemetools.Scheme('*', 30, 'mm')),
-            quoting="'"),
-            'paper-alist'))
+def snippet_size(width, height):
+    w = schemetools.Scheme('*', width, 'mm')
+    h = schemetools.Scheme('*', height, 'mm')
+    size_tuple = schemetools.Scheme('cons', w, h)
+    snippet = schemetools.Scheme("snippet", force_quotes=True)
+    snippet = schemetools.Scheme(snippet, '.', size_tuple, quoting="'")
+    paper_alist = schemetools.Scheme('cons', snippet, 'paper-alist')
+    return schemetools.Scheme('set!', 'paper-alist', paper_alist)
+
 
 if __name__ == '__main__':
-    cell = [1, 0, 0, 0]
+    cell = [1, 0]
 
     print("Permuting cell: {}".format(cell))
     cells = gen_permutations(3, cell)
-    perm = [gen_permutations(64, c) for c in cells]
+    perm = [gen_permutations(16, c) for c in cells]
 
     print("Converting to Abjad")
     notes = [[note_map[x](4) for x in c] for p in perm for c in p]
@@ -127,6 +122,7 @@ if __name__ == '__main__':
         attach(time_sig, st)
         attach(clef, st)
         make_three_line(st)
+        override(st).clef.stencil = False
 
     print("Building Book Parts")
     bps = [wrap_in_book_part(s) for s in staves]
@@ -140,9 +136,9 @@ if __name__ == '__main__':
     # constructor would insert book into a score block
     print("Creating file")
     lyf.items.append(book)
-    setup_paper(lyf)
+    setup_paper(lyf, 30, 30)
 
-    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1, 4)
+    fp = u"/home/danny/dev/python/steel/notation/section{}-{}.ly".format(1, 2)
     with open(fp, "w") as f:
         f.write(format(lyf))
 

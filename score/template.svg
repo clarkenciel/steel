@@ -20,6 +20,11 @@
      id="defs4">
     <pattern
        inkscape:collect="always"
+       xlink:href="#pattern13080"
+       id="pattern4344"
+       patternTransform="translate(-637.4939,444.93608)" />
+    <pattern
+       inkscape:collect="always"
        xlink:href="#pattern13120"
        id="pattern13140"
        patternTransform="translate(-624.9203,620.07106)" />
@@ -283,13 +288,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-378.23498"
-     inkscape:cy="226.34925"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="-392.93382"
+     inkscape:cy="24.012904"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1438"
+     inkscape:window-width="1373"
      inkscape:window-height="1028"
      inkscape:window-x="0"
      inkscape:window-y="25"
@@ -498,11 +503,11 @@
        x="-583"
        y="364" />
     <rect
-       style="stroke:none;fill:url(#pattern13080)"
+       style="fill:url(#pattern4344);stroke:none"
        width="62"
        height="47"
-       x="-633.95837"
-       y="449.17872"
+       x="-637.4939"
+       y="444.93607"
        id="rect13088" />
     <rect
        style="stroke:none;fill:url(#pattern13090)"
@@ -532,13 +537,12 @@
        x="-633.99493"
        y="557.53552"
        id="rect13118" />
-    <rect
-       style="opacity:0.24463519;fill:url(#pattern13140);fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="rect13134"
-       width="270.11478"
-       height="218.49599"
-       x="-457.49811"
-       y="506.19891" />
+    <path
+       style="fill:url(#pattern13120);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -254.55843,557.81772 -97.58074,-76.36753 127.27922,-21.92031 141.421351,344.361 -355.674701,-67.17515 -22.62742,-125.865 158.39192,50.91168 z"
+       id="path4346"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
   </g>
   <g
      inkscape:label="cells"

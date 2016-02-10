@@ -1075,16 +1075,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="657.33165"
-     inkscape:cy="95.069728"
+     inkscape:zoom="1"
+     inkscape:cx="-28.120011"
+     inkscape:cy="541.80444"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1532"
-     inkscape:window-height="1032"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-width="380"
+     inkscape:window-height="255"
+     inkscape:window-x="1536"
+     inkscape:window-y="799"
      inkscape:window-maximized="0"
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
@@ -1109,8 +1109,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="groups"
-     sodipodi:insensitive="true">
+     inkscape:label="groups">
     <path
        style="opacity:0.7;fill:#d1d1d1;fill-opacity:1;stroke:none;filter:url(#filter4345)"
        d="m 208.87129,-168.71338 420.72608,0 c 6.9e-4,0 0.001,5.5e-4 0.001,0.001 l 0,161.9249999 c 0,6.8e-4 -5.4e-4,0.001 -0.001,0.001 l -420.72608,0 c -6.8e-4,0 -10e-4,-5.5e-4 -10e-4,-0.001 l 0,-161.9249999 c 0,-6.9e-4 5.5e-4,-0.001 10e-4,-0.001 z"

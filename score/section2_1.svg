@@ -863,13 +863,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="493.92926"
-     inkscape:cy="346.24199"
+     inkscape:zoom="4"
+     inkscape:cx="163.97169"
+     inkscape:cy="648.75186"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1436"
+     inkscape:window-width="1520"
      inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="22"
@@ -1114,6 +1114,17 @@
        x="-123.31111"
        y="-98.553818"
        id="rect13270" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="50.000004"
+       y="51.999969"
+       id="text14272"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14274"
+         x="50.000004"
+         y="51.999969">3</tspan></text>
   </g>
   <g
      inkscape:label="cells"

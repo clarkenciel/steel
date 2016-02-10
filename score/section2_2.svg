@@ -1075,16 +1075,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-28.120011"
-     inkscape:cy="541.80444"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="55.877604"
+     inkscape:cy="667.9453"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="380"
-     inkscape:window-height="255"
-     inkscape:window-x="1536"
-     inkscape:window-y="799"
+     inkscape:window-width="1520"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
      inkscape:window-maximized="0"
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
@@ -5854,6 +5854,17 @@
        id="path11897"
        inkscape:connector-curvature="0"
        transform="translate(0,287.36218)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="50.000004"
+       y="339.36215"
+       id="text14272"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14274"
+         x="50.000004"
+         y="339.36215">4</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

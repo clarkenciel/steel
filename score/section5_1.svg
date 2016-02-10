@@ -1559,13 +1559,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.5858586"
-     inkscape:cx="195.17007"
-     inkscape:cy="555.76604"
+     inkscape:zoom="3.6569563"
+     inkscape:cx="85.21102"
+     inkscape:cy="619.67811"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="false"
-     inkscape:window-width="1436"
+     inkscape:window-width="1520"
      inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="22"
@@ -5466,6 +5466,17 @@
          d="m 128.15365,102.46461 0,-6.322361 5.65685,0 5.65685,0 0,6.322361 0,6.32236 -5.65685,0 -5.65685,0 0,-6.32236 z"
          style="fill:url(#linearGradient28912);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="50.000004"
+       y="51.999969"
+       id="text14272"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14274"
+         x="50.000004"
+         y="51.999969">13</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

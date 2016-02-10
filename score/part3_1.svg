@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="part3_1.svg">
+   sodipodi:docname="part3_1.svg"
+   inkscape:export-filename="/home/danny/Dropbox/compositions/synapse_ii/score/part3_1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
@@ -424,13 +427,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="432.18768"
-     inkscape:cy="342.61606"
+     inkscape:zoom="4"
+     inkscape:cx="153.57057"
+     inkscape:cy="633.6758"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
-     inkscape:window-width="1499"
+     inkscape:window-width="1520"
      inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="22"
@@ -451,7 +454,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5043,6 +5046,17 @@
        id="path3613"
        d="m 928.106,436.76863 32.36538,0"
        style="fill:none;stroke:#000600;stroke-width:2.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="50.000004"
+       y="51.999969"
+       id="text14272"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14274"
+         x="50.000004"
+         y="51.999969">5</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

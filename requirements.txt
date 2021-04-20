@@ -31,7 +31,7 @@ Pillow==2.3.0
 piston-mini-client==0.7.5
 ply==3.8
 psutil==1.2.1
-py==1.4.31
+py==1.10.0
 pycrypto==2.6.1
 pycurl==7.19.3
 Pygments==2.1

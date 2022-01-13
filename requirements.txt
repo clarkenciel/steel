@@ -27,7 +27,7 @@ onboard==1.0.1
 oneconf==0.3.7.14.4.1
 pbr==1.8.1
 pexpect==3.1
-Pillow==2.3.0
+Pillow==9.0.0
 piston-mini-client==0.7.5
 ply==3.8
 psutil==1.2.1

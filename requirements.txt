@@ -9,7 +9,7 @@ decorator==3.4.0
 defer==1.0.6
 docutils==0.12
 greenlet==0.4.9
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.8
 ipython==1.2.1
 Jinja2==2.8
